@@ -15,7 +15,7 @@ def quick_sort(data, l, r) -> List[int]:
         p = partition(data, l, r)
         quick_sort(data, l, p - 1)
         quick_sort(data, p + 1, r)
-    return dat
+    return data
 
 input_data = input()
 data = []
